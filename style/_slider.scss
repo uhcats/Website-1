@@ -1,0 +1,29 @@
+.slider {
+  height: 100vh;
+  .image{
+
+    width: 100%;
+    min-height: 200px;
+    height: 80vh;
+  }
+
+  .image-sonia{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,0);
+    opacity: 0;
+
+  }
+  .image-sonia.active{
+    width: 500px;
+    height: 500px;
+    opacity: 1;
+    transition: 1s ease-in-out;
+    
+   
+    
+  }
+}

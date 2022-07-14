@@ -1,0 +1,42 @@
+.contact{
+  background-color: rgb(250,250,250);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 40px;
+
+  .contact-first{
+    h2{
+      padding: 10px;
+      text-align: center;
+      font-family: 'Noto Serif';
+      font-size: 30px;
+    }
+    .facebook,
+    .instagram {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      text-decoration: none;
+      font-size: 25px;
+      padding: 5px;
+
+      i:hover {
+        cursor: pointer;
+      }
+
+    }
+ 
+
+    p{
+      padding: 10px;
+      font-size: 20px;
+      text-align: center;
+
+      span {
+        text-decoration: underline;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,21 @@
+.aside-navigation {
+  position: fixed;
+  top: 40%;
+  right: 5%;
+
+  .dot {
+    width: 5px;
+    height: 5px;
+    padding: 5px;
+    border-radius: 50%;
+    
+    margin-top: 6px;
+    border-left: 3px solid black;
+    border-right: 3px solid black;
+    border-bottom:3px solid black;
+    border-top: 3px solid black;
+  }
+  .dot.active {
+    background-color: black;
+  }
+}

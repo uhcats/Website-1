@@ -1,0 +1,20 @@
+.price-list {
+  margin-top: 10%;
+  height: 100vh;
+  .section-price {
+
+  & {
+    
+    font-size: 60px;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Noto serif';
+  } 
+
+  &__txt {
+    font-size:  40px;
+    padding: 20px;
+  }
+  }
+}
